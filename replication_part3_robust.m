@@ -1,4 +1,4 @@
-% Clear workspace and set options
+%% Clear workspace and set options
 clear;
 clc;
 format short g;
@@ -6,7 +6,7 @@ format short g;
 % Set random seed for reproducibility
 rng(42);
 
-% Load and prepare data
+%% Load and prepare data
 fprintf('Loading and preparing data...\n');
 
 try
