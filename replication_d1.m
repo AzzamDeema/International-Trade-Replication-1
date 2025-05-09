@@ -21,7 +21,7 @@ imports = renamevars(imports, {'cou', 'industry', 'sum_OBS_VALUE'}, {'country', 
 exports = renamevars(exports, {'cou', 'industry', 'sum_OBS_VALUE'}, {'country', 'industry', 'exports'});
 gross_output = renamevars(gross_output, {'cou', 'industry', 'OBS_VALUE'}, {'country', 'industry', 'gross_output'});
 
-% 🚀 NEW METHOD: Merge using `innerjoin` instead of `outerjoin`
+% Merge using `innerjoin` instead of `outerjoin`
 data = innerjoin(gross_output, imports, 'Keys', {'country', 'industry'});
 data = innerjoin(data, exports, 'Keys', {'country', 'industry'});
 
