@@ -6,7 +6,7 @@ Note: Although I already added both the files for the first and second replicati
 
 Simply download all files in this repository into a single file, follow the below intructions for running the code files in the appropriate order, change the file paths if needed, and run the code to produce the required tables.
 
-In order, the files should be ran in the following order: (1) **replication_d1.m** (2) **replication_part2.m** (3) **replication_part3_robust.m**. If all data and code files are in the same folder, these .m files should run without any additional manual effort of the part of the individual repicating this. If you would like an extensive overview of which of the files correspond with which the .m files, read below.
+In order, the files should be ran in the following order: (1) **replication_d1.m** (2) **replication_part2.m** (3) **replication_part3_robust.m**. If all data and code files are in the same folder, these .m files should run without any additional manual effort of the part of the individual replicating this. If you would like an extensive overview of which of the files correspond with which the .m files, read below.
 
 # What we did
 
